@@ -1,4 +1,7 @@
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: white;
     height: 70px;
     width: 100%;
@@ -8,4 +11,12 @@ header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+}
+
+#api_status {
+    right: 30px;
+    border-radius: 40px;
+    width: 50px; /* Example width */
+    height: 50px;
+    background-color: #CCCCCC;
 }
