@@ -105,4 +105,7 @@ button:hover {
 li input[type="checkbox"] {
     margin-right: 10px;
 }
-  
+ 
+#state {
+    display: inline;
+}
